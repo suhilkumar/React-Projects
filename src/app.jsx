@@ -1,8 +1,10 @@
+import React from 'react'
+import {Resturant } from './component/Basics/resturant'
 
-const App = () => {
-  return (
-    <h1>Hello World</h1>
-  )
+export  const App = () => {
+    return ( 
+        <div>
+        <Resturant/>
+        </div>
+    )
 }
-
-export default App

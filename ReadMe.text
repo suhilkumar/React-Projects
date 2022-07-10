@@ -1,8 +1,45 @@
-
-
+Tips for react v17
 To downgrade react version 
 {from latest version to 17.0.2}
 go inside that project 
 in your terminal 
 npm install -save react@17.0.2 react-dom@17.0.2
+
+you don't have to import react from 'react' from version 17
+
+Rules Of JSX 
+1) 	you must return only 1 html element 
+	so to overcome this react develop fragment or <></> 
+ 	or you can use <div> element.
+ 
+2) 	you must use className instead of class if you want to use CSS
+
+3) 	you must close all the non closing elements in JSX
+
+4)	you can use self closing tags in JXS
+
+5)	you must use camelCasing for attributes in JSX
+
+6)	same rules apply for events in JSX
+
+7) 	you can use JS expression/function in JSX you have to use {} brackets
+
+
+
+how to import css in react
+there are 3 ways you can import css in react
+1)	inline css 
+	with the help of style props and apply the css in curly brackets
+	example: <h1 style={{color:"red"}}> Hi </h1>
+
+2) 	create an object 
+	with the help of Object you can pass all your css 
+	example: const myStyle = { color: "red"} and you can pass this object 
+	in style props <h1 style={myStyle}> Hi </h1>
+
+3) 	create an external css and apply all your styles in just 1 file 
+	and import this file in your project
+
+
+
 
